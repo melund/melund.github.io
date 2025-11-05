@@ -25,9 +25,6 @@ linkedin_username:  # (Not provided in CV)
 
 # Additional icon links
 additional_links:
-  - title: GitHub Profile
-    icon: fab fa-github
-    url: https://github.com/melund
   - title: Email
     icon: fas fa-envelope
     url: mailto:melund@gmail.com
@@ -139,6 +136,8 @@ content:
         sub_title: Application Engineer
         caption: Aug 2014 – Present | Aalborg, DK
         description: |
+
+        
           - Orchestrated long-term Git platform journey (Bitbucket/Jira → GitLab → Azure DevOps Server / GitHub); led migration plans, branching policies & onboarding.
           - Architected unified CI/CD (Azure Pipelines + GitHub Actions) for C++, Python tooling & docs; automated artifact & installer assembly cutting release cycle to ~25 minutes.
           - Developed custom pytest plugin suite for model verification tests accelerating developer feedback.
@@ -193,6 +192,16 @@ content:
         caption: Graduated Jun 2008 | Aalborg, DK
         description: |
           Focus: Medical signals and systems.
+
+  - title: When I'm Not Working
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      When I'm not behind my PC, I am father to two kids. I enjoy cooking and outdoor activities with my family,
+      like skiing and working trails in the forest. I spend some of my time helping restoring and sailing an 
+      [old wooden sailboat](https://traeskibetbetty.dk/) as part of club in Aalborg, that I helped start.
+
+
+
 
   # ############################################
   # # Skills (condensed categories)
