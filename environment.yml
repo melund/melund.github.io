@@ -1,8 +1,0 @@
-name: pygments
-
-channels:
-  - conda-forge
-dependencies:
-  - python=3.11
-  - pygments=2.15.0
-  - pygments_anyscript=1.3.0

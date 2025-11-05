@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Morten Enemark Lund <melund@gmail.com>"]
+channels = ["https://prefix.dev/conda-forge"]
+name = "attractive-typst-resume"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+typst-cv = {cmd = "typst compile --font-path ./assets/fonts resume.typ", cwd="typst-cv"}
+
+[dependencies]
+typst = ">=0.14.0,<0.15"
