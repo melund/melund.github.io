@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publications
 title: Academic Publications
 permalink: /publications/
 ---
