@@ -169,7 +169,7 @@
             "Python",
             "C/C++",
             "AnyScript",
-            "+ knowledge of many other languages",
+            "+ others",
           ).join(" • "),
         ),
         subSection(
