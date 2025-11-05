@@ -1,127 +1,219 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+############################################
+# Jekyll Resume Configuration (Version 2)  #
+# Generated from typst CV (resume.typ)      #
+# Assumptions: PhD date corrected to 2009–2014 (typst file shows 2019–2014, likely typo)
+############################################
 
-# Content configuration version
+# Site / Theme
+repository: sproogen/resume-theme
+remote_theme: sproogen/resume-theme
+favicon: images/favicon.ico
 version: 2
 
-# Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+# Personal Info
+name: Morten Enemark Lund
+title: Senior Engineer – Developer Experience
+email: melund@gmail.com
+website: melund.github.io
+darkmode: false  # options: true, false, never
 
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+# Social Links (only those present in CV; others commented out)
+github_username: melund
+linkedin_username:  # (Not provided in CV)
+# twitter_username:
+# youtube_username:
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: GitHub Profile
+    icon: fab fa-github
+    url: https://github.com/melund
+  - title: Email
+    icon: fas fa-envelope
+    url: mailto:melund@gmail.com
+  - title: Scholar
+    icon: fas fa-graduation-cap
+    url: https://scholar.google.com/citations?user=JqhIdzEAAAAJ
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/biomedical/
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_profile_image: images/profile.png  # Replace with real image if available
+about_content: | # Summary adapted from resume.typ
+  Senior Engineer specializing in Developer Experience & Platform Engineering with 10+ years improving source control, build & release automation, test infrastructure, and documentation for modeling and scientific software.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Led multi-stage Git platform evolution (Bitbucket/Jira → GitLab → Azure DevOps Server + GitHub) and SVN→Git migration, standardizing branching and onboarding across numerous large repositories. Architected unified Azure Pipelines + GitHub Actions CI/CD reducing release cycle from multi-day manual steps to ~25 minutes end-to-end. Designed Sphinx extensions, pytest plugins, and automated installer pipelines to enhance quality, security, and self-service developer workflows. Strong collaborator across product, infrastructure, and open source communities (Snakemake, conda-forge, Xonsh).
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  ############################################
+  # Open Source Projects
+  ############################################
+  - title: Open Source Projects
+    layout: list
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+      - layout: left
+        title: AnyPyTools
+        link: https://anybody-research-group.github.io/AnyPyTools/
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title: anybody-research-group/anypytools
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/anybody-research-group/anypytools
+        sub_title: Maintainer (Python)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Automation & extension tooling for the AnyBody Modeling System.
+        description: |
+          A Python package for automating and extending the AnyBody Modeling System.
+      - layout: left
+        title: Snakemake
+        sub_title: Co-maintainer (Python)
+        link: https://snakemake.github.io/
+        additional_links:
+          - title: snakemake
+            icon: fab fa-github
+            url: https://github.com/snakemake
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+        quote: >
+          Workflow management for reproducible and scalable data analyses.
+        description: |
+          Highly used in bioinformatics; contributions include porting the system to work on Windows.
+      # - layout: left
+      #   title: vscode-anyscript
+      #   sub_title: Maintainer (TypeScript)
+      #   quote: >
+      #     VS Code extension enabling AnyScript language support.
+      #   description: |
+      #     Provides syntax highlighting and tooling for AnyScript modeling language.
+      # - layout: left
+      #   title: conda-forge
+      #   sub_title: Package Maintainer
+      #   description: |
+      #     Maintains distributions for AnyBodyCon, pydeo, pymeasure, sphinx-data-viewer, sphinx-needs, sphinx-simplepdf and others.
+      - layout: left
+        title: Xonsh
+        link: https://xon.sh/
+        additional_links:
+          - title: xonsh/xonsh
+            icon: fab fa-github
+            url: https://github.com/xonsh/xonsh
+        sub_title: Core Developer (Python)
+        quote: >
+          Python-powered cross-platform shell (9K+ GitHub stars; Top 10 trending in 2020).
+        description: |
+          Architected Windows usage and integration with Windows command prompt.
+
+  ############################################
+  # Experience
+  ############################################
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: AnyBody Technology A/S
+        sub_title: Application Engineer
+        caption: Aug 2014 – Present | Aalborg, DK
+        description: |
+          - Orchestrated long-term Git platform journey (Bitbucket/Jira → GitLab → Azure DevOps Server / GitHub); led migration plans, branching policies & onboarding.
+          - Architected unified CI/CD (Azure Pipelines + GitHub Actions) for C++, Python tooling & docs; automated artifact & installer assembly cutting release cycle to ~25 minutes.
+          - Developed custom pytest plugin suite for model verification tests accelerating developer feedback.
+          - Built internal documentation portals (Sphinx + custom extensions & Pygments lexer) for AnyScript language & models.
+          - Modernized installer delivery via automated Inno Setup pipeline reducing manual effort & improving reliability.
+          - Implemented repo/workflow tooling emphasizing security, consistency & testability; championed Developer Experience.
+          - Fostered external & internal user community (AMMR, training/webcasts, discourse forums) driving adoption & contribution.
+      - layout: left
+        title: Materials and Production, Aalborg University
+        sub_title: PhD Researcher
+        caption: Aug 2009 – 2014 | Aalborg, DK
+        description: |
+          - Research & development of biomechanical models for human movement & environment interaction.
+          - Investigated validation methodologies for biomechanical multibody models.
+      - layout: left
+        title: TKS A/S
+        sub_title: Consultant – R&D Engineer
+        caption: 2009 | Aalborg, DK
+        description: |
+          - Embedded software controlling wheelchairs with inter-oral devices.
+          - ISO 13485 compliance & medical device documentation.
+      - layout: left
+        title: Health Science and Technology, AAU
+        sub_title: Research Assistant
+        caption: Apr 2008 – Aug 2009 | Aalborg, DK
+        description: |
+          - Embedded software development.
+          - Wheelchair control with inter-oral interfaces.
+      - layout: left
+        title: Mathematical Sciences, AAU
+        sub_title: Teaching Assistant
+        caption: Aug 2008 – Aug 2010 | Aalborg, DK
+        description: |
+          - Assistant teacher in mathematics for first-year students.
+      - layout: left
+        title: Mermaid Care A/S
+        sub_title: Engineering Trainee
+        caption: Aug 2007 – Jan 2008 | Aalborg, DK
+        description: |
+          - R&D of medical equipment.
+          - Standards & regulations (ISO 60601-1) & Quality Management (ISO 13485).
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  ############################################
+  # Education
+  ############################################
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Aalborg University
+        sub_title: MSc Biomedical Engineering
+        caption: Graduated Jun 2008 | Aalborg, DK
+        description: |
+          Focus: Medical signals and systems.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  # ############################################
+  # # Skills (condensed categories)
+  # ############################################
+  # - title: Skills
+  #   layout: text
+  #   content: | # Markdown formatting
+  #     **Languages:** Python • C/C++ • AnyScript • + knowledge of many other languages
 
-  - title: A Little More About Me
+  #     **Platform & DevOps:** Git/GitHub/Azure DevOps • Azure Pipelines • GitHub Actions • CI/CD Architecture • Repository Governance • Inno Setup Packaging
+
+  #     **DevEx & Tooling:** Developer Portals (Sphinx) • Custom Sphinx Extensions • Pytest Plugins • Documentation Automation • VS Code Extensions • Test Harness Design
+
+  #     **Practices:** Agile/Scrum • Automated Testing • Secure Workflow Enablement • Open Source Collaboration • Developer Experience Optimization
+
+  #     **Domain:** Biomechanical Modeling • Multibody Dynamics • Scientific Tooling
+
+  ############################################
+  # Academic Publications
+  ############################################
+  - title: Academic Publications
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: | 
+      Published 20+ peer-reviewed papers (Scopus h-index: 13). Representative works: Validation of multibody musculoskeletal models (2012); AnyPyTools reproducible modeling tooling (JOSS, 2019); AMMR managed model repository (Zenodo, 2025).
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Full list: [Academic Publications](/publications/) • [Google Scholar](https://scholar.google.com/citations?user=JqhIdzEAAAAJ)
+
+  # ############################################
+  # # Awards
+  # ############################################
+  # - title: Awards
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: Oticon Scholarship
+  #       caption: 2007
+  #       description: |
+  #         Awarded 100,000 DKK for Master Thesis.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References on request
 
-# Build settings
-remote_theme: sproogen/resume-theme
-
+# SASS build settings
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

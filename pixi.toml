@@ -10,3 +10,4 @@ typst-cv = {cmd = "typst compile --font-path ./assets/fonts resume.typ", cwd="ty
 
 [dependencies]
 typst = ">=0.14.0,<0.15"
+ruby = ">=3.4.7,<4"
