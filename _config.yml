@@ -59,14 +59,17 @@ content:
           - title: anybody-research-group/anypytools
             icon: fab fa-github
             url: https://github.com/anybody-research-group/anypytools
-        sub_title: Maintainer (Python)
+        sub_title: Owner
         quote: >
           Automation & extension tooling for the AnyBody Modeling System.
         description: |
-          A Python package for automating and extending the AnyBody Modeling System.
+          The AnyPyTools package provides a Python interface to automate multibody musculoskeletal model simulations in the AnyBody Modeling System. The main advantage of
+          AnyPyTools is that it enables reproducible research for the AnyBody Modeling System,
+          and bridges the gap to the whole ecosystem of open source scientific Python packages.
+
       - layout: left
         title: Snakemake
-        sub_title: Co-maintainer (Python)
+        sub_title: Co-maintainer
         link: https://snakemake.github.io/
         additional_links:
           - title: snakemake
@@ -76,7 +79,13 @@ content:
         quote: >
           Workflow management for reproducible and scalable data analyses.
         description: |
-          Highly used in bioinformatics; contributions include porting the system to work on Windows.
+          Snakemake is highly used in in the field of bioinformatics, but the system is usefull in all cases 
+          where data analysis workflows are involved. The Snakemake workflow management system is a tool to 
+          create reproducible and scalable data analyses. Workflows are described via a human readable, Python based language. 
+
+          My contribution to snakemake was enabling windows support, which involved integration of the commandline systems on windows, and updating the snakemake test system 
+          to also handle windows tests. I am currently one of the 8 maintainers of the project.
+
       # - layout: left
       #   title: vscode-anyscript
       #   sub_title: Maintainer (TypeScript)
@@ -96,11 +105,28 @@ content:
           - title: xonsh/xonsh
             icon: fab fa-github
             url: https://github.com/xonsh/xonsh
-        sub_title: Core Developer (Python)
+        sub_title: Core Developer
         quote: >
           Python-powered cross-platform shell (9K+ GitHub stars; Top 10 trending in 2020).
         description: |
-          Architected Windows usage and integration with Windows command prompt.
+          Xonsh is a modern, full-featured and cross-platform python shell. The language is a superset of Python 3.6+ with additional 
+          shell primitives that you are used to from Bash and IPython. It works on all major systems including Linux, OSX, and Windows.
+          Xonsh is meant for the daily use of experts and novices.
+
+          It has been a while since I actively contributed, but I have previously I was one of the 
+          [core-developers](https://github.com/xonsh/xonsh/graphs/contributors) when xonsh was getting started, and mostly handled 
+          the Windows compatibility aspects.
+
+
+  ############################################
+  # Academic Publications
+  ############################################
+  - title: Academic Publications
+    layout: text
+    content: | 
+      Published 20+ peer-reviewed papers (Scopus h-index: 13). Representative works: Validation of multibody musculoskeletal models (2012); AnyPyTools reproducible modeling tooling (JOSS, 2019); AMMR managed model repository (Zenodo, 2025).
+
+      Full list: [Academic Publications](/publications/) • [Google Scholar](https://scholar.google.com/citations?user=JqhIdzEAAAAJ)
 
   ############################################
   # Experience
@@ -184,15 +210,6 @@ content:
 
   #     **Domain:** Biomechanical Modeling • Multibody Dynamics • Scientific Tooling
 
-  ############################################
-  # Academic Publications
-  ############################################
-  - title: Academic Publications
-    layout: text
-    content: | 
-      Published 20+ peer-reviewed papers (Scopus h-index: 13). Representative works: Validation of multibody musculoskeletal models (2012); AnyPyTools reproducible modeling tooling (JOSS, 2019); AMMR managed model repository (Zenodo, 2025).
-
-      Full list: [Academic Publications](/publications/) • [Google Scholar](https://scholar.google.com/citations?user=JqhIdzEAAAAJ)
 
   # ############################################
   # # Awards
