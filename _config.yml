@@ -121,10 +121,8 @@ content:
   - title: Academic Publications
     layout: text
     content: | 
-      Published 20+ peer-reviewed papers (Scopus h-index: 13). Representative works: Validation of multibody musculoskeletal models (2012); AnyPyTools reproducible modeling tooling (JOSS, 2019); AMMR managed model repository (Zenodo, 2025).
-
-      Full list: [Academic Publications](/publications/) • [Google Scholar](https://scholar.google.com/citations?user=JqhIdzEAAAAJ)
-
+      Published 20+ peer-reviewed papers (Scopus h-index: 13). See the full publications list: [Academic Publications](/publications/) 
+      
   ############################################
   # Experience
   ############################################
