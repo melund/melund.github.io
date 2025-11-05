@@ -64,7 +64,7 @@
           title: "Materials and Production, AAU",
           titleEnd: "Aalborg, DK",
           subTitle: "PhD Researcher",
-          subTitleEnd: "(August 2019 – 2014)",
+          subTitleEnd: "(August 2009 – 2014)",
           content: list(
             [Research and development of biomechanical models for simulating human movement and interaction with the environment.],
             [Research into ways of validating biomechanical models.],
