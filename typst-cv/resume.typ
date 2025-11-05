@@ -24,8 +24,8 @@
       link: "mailto:melund@gmail.com"
     ),
     contact(
-      text: "GitHub.com/melund", 
-      link: "https://www.github.com/melund"
+      text: "https://melund.github.io",
+      link: "https://melund.github.io",
     ),
     // contact(
     //   text: "www.Harkunwar.com", 
