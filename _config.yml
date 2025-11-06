@@ -122,7 +122,7 @@ content:
     layout: text
     content: | 
       Published 20+ peer-reviewed papers (Scopus h-index: 13). See the full publications list: [Academic Publications](/publications/) 
-      
+
   ############################################
   # Experience
   ############################################
@@ -134,8 +134,12 @@ content:
         sub_title: Application Engineer
         caption: Aug 2014 – Present | Aalborg, DK
         description: |
+          *Biomchanical Modeling*
+          - Top expert in biomechanical multibody modeling, simulation & analysis with the AnyBody Modeling System.
+          - Developed the MoCap analysis framework for the AnyBody Modeling System, and model repository.
+          - Consultant in biomechanical modeling for industrial & research clients.
 
-
+          * Developer Experience / Platform Engineering*
           - Orchestrated long-term Git platform journey (Bitbucket/Jira → GitLab → Azure DevOps Server / GitHub); led migration plans, branching policies & onboarding.
           - Architected unified CI/CD (Azure Pipelines + GitHub Actions) for C++, Python tooling & docs; automated artifact & installer assembly cutting release cycle to ~25 minutes.
           - Developed custom pytest plugin suite for model verification tests accelerating developer feedback.

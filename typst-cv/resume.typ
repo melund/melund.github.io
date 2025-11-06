@@ -169,6 +169,8 @@
             "Python",
             "C/C++",
             "AnyScript",
+            "Jinja2",
+            "Snakemake",
             "+ others",
           ).join(" • "),
         ),
