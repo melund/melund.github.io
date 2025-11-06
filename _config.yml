@@ -38,9 +38,19 @@ additional_links:
 # About Section
 about_profile_image: images/profile.png  # Replace with real image if available
 about_content: | # Summary adapted from resume.typ
-  Senior Engineer specializing in biomechanical modeling, developer Experience & Platform Engineering with 10+ years improving source control, build & release automation, test infrastructure, and documentation for modeling and scientific software.
+  Senior Engineer specializing in biomechanical modeling and simulation. I am
+  passionate about open source and developer tools, and has 10+ years experience
+  improving source control, build & release automation, test infrastructure, and
+  documentation for modeling and scientific software.
 
-  Led multi-stage Git platform evolution (Bitbucket/Jira → GitLab → Azure DevOps Server + GitHub) and SVN→Git migration, standardizing branching and onboarding across numerous large repositories. Architected unified Azure Pipelines + GitHub Actions CI/CD reducing release cycle from multi-day manual steps to ~25 minutes end-to-end. Designed Sphinx extensions, pytest plugins, and automated installer pipelines to enhance quality, security, and self-service developer workflows. Strong collaborator across product, infrastructure, and open source communities (Snakemake, conda-forge, Xonsh).
+  Led multi-stage Git platform evolution (Bitbucket/Jira → GitLab → Azure DevOps
+  Server + GitHub) and SVN→Git migration, standardizing branching and onboarding
+  across numerous large repositories. Architected unified Azure Pipelines +
+  GitHub Actions CI/CD reducing release cycle from multi-day manual steps to ~25
+  minutes end-to-end. Designed Sphinx extensions, pytest plugins, and automated
+  installer pipelines to enhance quality, security, and self-service developer
+  workflows. Strong collaborator across product, infrastructure, and open source
+  communities (Snakemake, conda-forge, Xonsh).
 
 content:
   ############################################
