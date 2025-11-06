@@ -10,7 +10,7 @@ permalink: /publications/
 ## Full List (Descending by Citations)
 
 | Citations (Scopus) | Year | Authors        | Title |  Source        |
-|:-------------------|:----:|----------------|-------|----------------|
+|:-------------------|------|----------------|-------|----------------|
 | 144 | 2015 | Lund ME; Andersen MS; de Zee M; Rasmussen J | [Scaling of musculoskeletal models from static and dynamic trials](https://doi.org/10.1080/23335432.2014.993706) | International Biomechanics |
 | 121 | 2012 | Lund ME; de Zee M; Andersen MS; Rasmussen J | [On validation of multibody musculoskeletal models](https://doi.org/10.1177/0954411911431516) | Proc. IMechE Part H: J. Eng. Med. |
 |  66 | 2018 | De Pieri E; Lund ME; Gopalakrishnan A; Rasmussen KP; Lunn DE; Ferguson SJ | [Refining muscle geometry and wrapping in the TLEM 2 model for improved hip contact force prediction](https://doi.org/10.1371/journal.pone.0204109) | PLOS ONE |
