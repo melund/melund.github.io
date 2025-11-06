@@ -15,16 +15,22 @@ name: Morten Enemark Lund
 title: Senior Engineer - Biomechanics & Developer Experiences
 email: melund@gmail.com
 website: melund.github.io
-darkmode: false  # options: true, false, never
+darkmode: true  # options: true, false, never
 
 # Social Links (only those present in CV; others commented out)
-github_username: melund
+# github_username: melund
 linkedin_username:  # (Not provided in CV)
 # twitter_username:
 # youtube_username:
 
 # Additional icon links
 additional_links:
+  - title: Home
+    icon: fas fa-house-user
+    url: https://melund.github.io
+  - title: Email
+    icon: fas fa-github
+    url: https://github.com/melund
   - title: Email
     icon: fas fa-envelope
     url: mailto:melund@gmail.com
@@ -145,11 +151,13 @@ content:
         caption: Aug 2014 – Present | Aalborg, DK
         description: |
           *Biomchanical Modeling*
+
           - Top expert in biomechanical multibody modeling, simulation & analysis with the AnyBody Modeling System.
           - Developed the MoCap analysis framework for the AnyBody Modeling System, and model repository.
           - Consultant in biomechanical modeling for industrial & research clients.
 
           * Developer Experience / Platform Engineering*
+
           - Orchestrated long-term Git platform journey (Bitbucket/Jira → GitLab → Azure DevOps Server / GitHub); led migration plans, branching policies & onboarding.
           - Architected unified CI/CD (Azure Pipelines + GitHub Actions) for C++, Python tooling & docs; automated artifact & installer assembly cutting release cycle to ~25 minutes.
           - Developed custom pytest plugin suite for model verification tests accelerating developer feedback.
@@ -157,6 +165,7 @@ content:
           - Modernized installer delivery via automated Inno Setup pipeline reducing manual effort & improving reliability.
           - Implemented repo/workflow tooling emphasizing security, consistency & testability; championed Developer Experience.
           - Fostered external & internal user community (AMMR, training/webcasts, discourse forums) driving adoption & contribution.
+
       - layout: left
         title: Materials and Production, Aalborg University
         sub_title: PhD Researcher
