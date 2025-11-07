@@ -49,15 +49,6 @@ about_content: | # Summary adapted from resume.typ
   improving source control, build & release automation, test infrastructure, and
   documentation for modeling and scientific software.
 
-  Led multi-stage Git platform evolution (Bitbucket/Jira → GitLab → Azure DevOps
-  Server + GitHub) and SVN→Git migration, standardizing branching and onboarding
-  across numerous large repositories. Architected unified Azure Pipelines +
-  GitHub Actions CI/CD reducing release cycle from multi-day manual steps to ~25
-  minutes end-to-end. Designed Sphinx extensions, pytest plugins, and automated
-  installer pipelines to enhance quality, security, and self-service developer
-  workflows. Strong collaborator across product, infrastructure, and open source
-  communities (Snakemake, conda-forge, Xonsh).
-
 content:
   ############################################
   # Open Source Projects
@@ -156,7 +147,7 @@ content:
           - Developed the MoCap analysis framework for the AnyBody Modeling System, and model repository.
           - Consultant in biomechanical modeling for industrial & research clients.
 
-          * Developer Experience / Platform Engineering*
+          *Developer Experience / Platform Engineering*
 
           - Orchestrated long-term Git platform journey (Bitbucket/Jira → GitLab → Azure DevOps Server / GitHub); led migration plans, branching policies & onboarding.
           - Architected unified CI/CD (Azure Pipelines + GitHub Actions) for C++, Python tooling & docs; automated artifact & installer assembly cutting release cycle to ~25 minutes.
