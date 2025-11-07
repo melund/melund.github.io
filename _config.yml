@@ -26,7 +26,7 @@ linkedin_username:  # (Not provided in CV)
 # Additional icon links
 additional_links:
   - title: Home
-    icon: fas fa-house-user
+    icon: fas fa-home
     url: https://melund.github.io
   - title: Email
     icon: fab fa-github
