@@ -109,7 +109,7 @@ content:
           - title: xonsh/xonsh
             icon: fab fa-github
             url: https://github.com/xonsh/xonsh
-        sub_title: Core Developer
+        sub_title: Core Developer (2016 - 2022)
         quote: >
           Python-powered cross-platform shell (9K+ GitHub stars; Top 10 trending in 2020).
         description: |
