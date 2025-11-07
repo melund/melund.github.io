@@ -5,9 +5,7 @@ name = "attractive-typst-resume"
 platforms = ["win-64"]
 version = "0.1.0"
 
-[tasks]
-typst-cv = {cmd = "typst compile --font-path ./assets/fonts resume.typ", cwd="typst-cv"}
 
 [dependencies]
-typst = ">=0.14.0,<0.15"
 ruby = ">=3.4.7,<4"
+fontconfig = ">=2.15.0,<3"
